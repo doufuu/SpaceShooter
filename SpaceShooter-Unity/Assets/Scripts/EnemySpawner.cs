@@ -55,8 +55,8 @@ public class EnemySpawner : MonoBehaviour
         float xMin = -bndCheck.camWidth + enemyPadding;
         float xMax = bndCheck.camWidth - enemyPadding;
         
-        pos.x = Random.Range(xMin, xMax);
-        pos.y = bndCheck.camHeight + enemyPadding;
+   /*     pos.x = Random.Range(xMin, xMax);
+        pos.y = bndCheck.camHeight + enemyPadding;*/
         
         pos.x = Random.Range(xMin, xMax); //range between the xmin and xmax
         pos.y = bndCheck.camHeight + enemyPadding; // height plus padding, off
